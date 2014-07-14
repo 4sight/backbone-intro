@@ -38,8 +38,15 @@
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
     <script src="../bower_components/backbone/backbone.js"></script>
+    <script src="../bower_components/handlebars/handlebars.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+
+<script type='text/x-handlebars-template' id='student_list_h'>
+    {{#each students}}
+        <li>Hi, my name is {{name}} and I am from {{location}}</li>
+    {{/each}}
+</script>
 
         <!-- build:js scripts/main.js -->
         <script src='scripts/model.js'></script>
