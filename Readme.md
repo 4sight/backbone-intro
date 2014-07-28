@@ -8,13 +8,21 @@ Take the endpoint I'm providing and preform some simple CRUD operations on it.
 Use this endpoint: http://tiy-atl-fe-server.herokuapp.com/collections/{your-name}
 Feel free to play around with this one to test out reading/fetching data
 Edit & Delete existing models. This data should persist. On your URL, make sure you can:
+
 Create a new object
+
 Read the ones created
+
 Update a property on one
+
 Delete (destroy) one as well.
+
 Create a view instance
+
 Make sure you either set up an element or create one in your View constructor
+
 Render some data to your page
+
 Use an Underscore template to display your collection data to your page.
 
 Bonus: Create an element on your page and play around with adding an event to your view that will delete the model instance you interacted with. We've not specifically talked about how to do this, but Shane showed you some code and it is documented really well in Backbone's documentation.
